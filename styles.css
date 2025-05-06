@@ -9,38 +9,66 @@
 
  body {
     background-size: cover;
+   
  }
-
+ 
  #page {
     box-sizing: border-box;
     width: 1120px;
-    padding: 0px;
-    margin: 88px 80px 138px 80px;
-    
+    padding: 40px;
+    margin: 88px auto 138px auto;
+   
  }
  
- 
+ #line-Top {
+   border-top: 1px solid gray;
+    width: 100%;
+ }
 
- #Busan , #finalLine{
-    border-bottom: 1px solid gray;
+ #line-bottom{   
+   border-bottom: 1px solid gray;
+    width: 100%;
+    
  } 
+ #small_Description-OL {
+   margin-top: 40px;
+   font-size: 16px;
+    font-weight: bold;
+    color: #E1624F;
+    line-height: auto;
+    letter-spacing: 16%;
+ }
+
 
  #small_Description {
+   margin-bottom: 10px;
     font-size: 16px;
     font-weight: bold;
     color: #E1624F;
-    line-height: 100%;
+    line-height: auto;
+    letter-spacing: 16%;
  }
  #description {
     font-size: 16px;
     font-weight: normal;
     color: #333333;
+    text-align: center;
  }
+ #subtitle {
+   text-align: center;
+   margin: 12px auto 32px auto;
+   font-style: italic;
+   font-size: 14px;
+   color: #666;
+ }
+
+ 
 
 
  h1 {
     font-size: 36px;
     font-weight: bold;
+    margin-bottom: 40px;
 }
 
  h2 {
@@ -53,4 +81,11 @@
 
     font-size: 28px;
     font-weight: bold;
+}
+
+footer {
+   color: #F0E8C2;
+   text-align: center;
+   padding-bottom: 48px;
+   font-size: 16px;
 }
