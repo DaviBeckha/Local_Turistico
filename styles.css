@@ -15,9 +15,8 @@
  #page {
     box-sizing: border-box;
     width: 1120px;
-    padding: 40px;
     margin: 88px auto 138px auto;
-   
+    border-top: 1px solid gray;
  }
  
  #line-Top {
@@ -31,7 +30,7 @@
     
  } 
  #small_Description-OL {
-   margin-top: 40px;
+   margin-top: 64px;
    font-size: 16px;
     font-weight: bold;
     color: #E1624F;
@@ -48,11 +47,38 @@
     line-height: auto;
     letter-spacing: 16%;
  }
+
+ #description-three-topic {
+   font-size: 16px;
+   font-weight: normal;
+   color: #333333;
+   text-align: center;
+   margin-bottom: 64px;
+
+ }
+
+ #imagem{
+   margin-bottom: 20px;
+ }
+
+ #for-good {
+   font-size: 16px;
+   margin-top: 15px;
+   margin-bottom: 48px;
+ }
+ #history-blue{
+   margin-left: 10px;
+   font-size: 16px;
+   color: #0c51a7;
+   line-height: 150%;
+   
+ }
+
  #description {
     font-size: 16px;
     font-weight: normal;
     color: #333333;
-    text-align: center;
+    text-align: left;
  }
  #subtitle {
    text-align: center;
@@ -62,8 +88,23 @@
    color: #666;
  }
 
+ li  {
+   font-size: 35px;
+ }
  
 
+ ul {
+   list-style: none;
+  
+ }
+
+ #for-good li::before {
+   content: "•";
+   color: black;
+   display: inline-block;
+   margin-left: 5px ;
+   margin-right: 5px;
+ }
 
  h1 {
     font-size: 36px;
@@ -72,19 +113,44 @@
 }
 
  h2 {
-
     font-size: 32px;
     font-weight: bold;
-
+    line-height: 70px;
 }
  h3 {
 
     font-size: 28px;
     font-weight: bold;
+    margin-bottom: 10px ;
+}
+
+#violet{
+   font-size: 16px;
+   color: #591b98;
+   line-height: 150%;
+}
+#red {
+   font-size: 16px;
+   color: #E5245E;
+   line-height: 150%;
+}
+
+#orange {
+   font-size: 16px;
+   color: #E95E10;
+   line-height: 150%;
+}
+
+#description-final-spacing {
+   font-size: 16px;
+   font-weight: normal;
+   color: #333333;
+   text-align: center;
+   margin-top: 40px;
 }
 
 footer {
-   color: #F0E8C2;
+   color: #343635;
    text-align: center;
    padding-bottom: 48px;
    font-size: 16px;
