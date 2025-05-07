@@ -70,6 +70,7 @@
    font-size: 16px;
    color: #0c51a7;
    line-height: 150%;
+   font-weight: bold;
    
  }
 
@@ -91,14 +92,9 @@
    font-size: 35px;
    
  }
-
- 
-
- 
-
  ul {
    list-style: none;
-  
+
  }
 
  #for-good li::before {
@@ -134,17 +130,20 @@
    font-size: 16px;
    color: #591b98;
    line-height: 150%;
+   font-weight: bold;
 }
 #red {
    font-size: 16px;
    color: #E5245E;
    line-height: 150%;
+   font-weight: bold;
 }
 
 #orange {
    font-size: 16px;
    color: #E95E10;
    line-height: 150%;
+   font-weight: bold;
 }
 
 #description-final-spacing {
